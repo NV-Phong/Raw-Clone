@@ -532,18 +532,26 @@ https://maps.app.goo.gl/6cLvxjsnC4fLQZL29
       }
     }
 
+    const events = ['click', 'touchstart', 'touchend', 'mousedown', 'pointerdown', 'keydown', 'scroll', 'wheel'];
+
     const startOnce = () => {
-      if (!hasStarted) {
-        audio.play().then(() => {
-          isPlaying = true;
-          hasStarted = true;
-          setUI(true);
-        }).catch(() => { setUI(false); });
-      }
+      if (hasStarted) return;
+      audio.play().then(() => {
+        isPlaying = true;
+        hasStarted = true;
+        setUI(true);
+        // Xóa các sự kiện này sau khi phát nhạc thành công
+        events.forEach(evt => document.removeEventListener(evt, startOnce));
+      }).catch(() => { 
+        // Nếu trình duyệt từ chối (do scroll/wheel ko được coi là hành động của người dùng hợp lệ),
+        // thì không đổi hasStarted, tiếp tục chờ sự kiện chạm/click tiếp theo
+      });
     };
 
-    document.body.addEventListener("click", startOnce, { once: true });
-    document.body.addEventListener("touchstart", startOnce, { once: true, passive: true });
+    // Lắng nghe liên tục cho tới khi bật được nhạc thì mới hủy
+    events.forEach(evt => {
+      document.addEventListener(evt, startOnce, { passive: true });
+    });
 
     toggleButton.addEventListener("click", function (event) {
       event.stopPropagation();
