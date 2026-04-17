@@ -311,35 +311,7 @@ div[class^="tiktok"].--savior-overlay-z-index-reset {
  * =====================================================================
  */
 
-const MAPPING = [
-{ id: "w-kb6stlwe", text: "Văn Hùng & Châu Hương "},
-{ id: "w-b38gb1ay", text: "18:00 - Chủ Nhật "},
-{ id: "w-kcf30pvx", text: "14.12.2026 "},
-{ id: "w-mz04c43b", text: "Nguyễn Văn Hùng "},
-{ id: "w-0vqn3fzh", text: "Châu Hương "},
-{ id: "w-7sjvq3be", text: "Trân Trọng Báo Tin Lễ Thành Hôn Của "},
-{ id: "w-aqbkkztv", text: "NHÀ TRAI "},
-{ id: "w-oj3482xm", text: "NHÀ GÁI "},
-{ id: "w-vq47tj4t", text: "ÔNG NGUYỄN VĂN BÉ\nBÀ NGUYỄN THỊ ĐƯƠNG "},
-{ id: "w-fynwgspj", text: "ÔNG PHẠM GIA LONG\nBÀ NGUYỄN THỊ NGỌC HẠNH "},
-{ id: "w-y1s24e6p", text: "Vĩnh Linh, Quảng Trị "},
-{ id: "w-2wvcu7z3", text: "Tuy Phong, Bình Thuận "},
-{ id: "w-wi89g5us", text: "LỄ THÀNH HÔN "},
-{ id: "w-jkm0ioqy", text: "14 giờ 00 "},
-{ id: "w-tzt5ncnt", text: "Chủ Nhật "},
-{ id: "w-2eldzvuo", text: "14 "},
-{ id: "w-y3b9j696", text: "Tháng 12 "},
-{ id: "w-ajw71iaq", text: "Năm 2026 "},
-{ id: "w-sijholsn", text: "(Tức Ngày 25 Tháng 10 Năm Ất Tỵ) "},
-{ id: "w-vg6knxma", text: "Tại Tư Gia Nhà Trai "},
-{ id: "w-akmf0jjg", text: "TIỆC MỪNG LỄ THÀNH HÔN "},
-{ id: "w-xk7m9u1p", text: "18:00 - Chủ Nhật "},
-{ id: "w-2bfvf872", text: "14.12.2026 "},
-{ id: "w-33oq140d", text: "(Tức Ngày 25 Tháng 10 Năm Ất Tỵ) "},
-{ id: "w-n49s9ljy", text: "Tại Adora Center – Phú Nhuận "},
-{ id: "w-m1u3o3mx", text: "ADORA CENTER – PHÚ NHUẬN "},
-{ id: "w-oq2hoi54", text: "431 Hoàng Văn Thụ, Phường 4, TP. Hồ Chí Minh "},
-];
+// MAPPING will be built dynamically by import-data.js from data.json
 
 /** Giữ markup: chỉ đổi nodeValue của text node */
 function setTextPreserve(el, newText) {
@@ -646,6 +618,9 @@ BÀ NGUYỄN THỊ NGỌC HẠNH <br></p></div></div><div id="w-bamvvrik" class=
         }
       })()
     </script>
+
+    <!-- Load data từ data.json -->
+    <script src="./import-data.js"></script>
 
     <script>
       const windowHeight = () => {

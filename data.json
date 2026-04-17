@@ -1,0 +1,94 @@
+{
+   "title": "THƯ MỜI CƯỚI MẪU ĐỎ VÀNG",
+   "groom": {
+      "name": "Nguyễn Văn Hùng",
+      "firstName": "Văn Hùng",
+      "phone": "0938124576",
+      "parents": {
+         "father": "Ông Nguyễn Văn Bé",
+         "mother": "Bà Nguyễn Thị Đương"
+      },
+      "hometown": "Vĩnh Linh, Quảng Trị",
+      "side": "Nhà Trai"
+   },
+   "bride": {
+      "name": "Châu Hương",
+      "firstName": "Châu Hương",
+      "parents": {
+         "father": "Ông Phạm Gia Long",
+         "mother": "Bà Nguyễn Thị Ngọc Hạnh"
+      },
+      "hometown": "Tuy Phong, Bình Thuận",
+      "side": "Nhà Gái"
+   },
+   "wedding_ceremony": {
+      "name": "Lễ Thành Hôn",
+      "date": "14.12.2026",
+      "day": "Chủ Nhật",
+      "time": "14:00",
+      "lunar_date": "25 Tháng 10 Năm Ất Tỵ",
+      "location": "Tư Gia Nhà Trai"
+   },
+   "reception_1": {
+      "name": "Tiệc Mừng Lễ Thành Hôn",
+      "date": "14.12.2026",
+      "day": "Chủ Nhật",
+      "time": "18:00",
+      "lunar_date": "25 Tháng 10 Năm Ất Tỵ",
+      "venue": "Adora Center – Phú Nhuận",
+      "address": "431 Hoàng Văn Thụ, Phường 4, TP. Hồ Chí Minh",
+      "map_link": "https://maps.app.goo.gl/rEY4BMbVBai5KmwEA"
+   },
+   "engagement_ceremony": {
+      "name": "Lễ Vu Quy",
+      "date": "15.12.2026",
+      "day": "Thứ Hai",
+      "time": "10:00",
+      "lunar_date": "26 Tháng 10 Năm Ất Tỵ",
+      "location": "Tư Gia Nhà Gái"
+   },
+   "reception_2": {
+      "name": "Tiệc Mừng Lễ Vu Quy",
+      "date": "15.12.2026",
+      "day": "Thứ Hai",
+      "time": "12:00",
+      "lunar_date": "26 Tháng 10 Năm Ất Tỵ",
+      "venue": "Adora Luxury – Quận 7",
+      "address": "118 Hoàng Quốc Việt, Phường Phú Mỹ, TP. Hồ Chí Minh",
+      "map_link": "https://maps.app.goo.gl/6cLvxjsnC4fLQZL29"
+   },
+   "rsvp_form": {
+      "fields": [
+         "Tên của bạn là?",
+         "Bạn là gì của Dâu Rể nhỉ?",
+         "Gửi lời chúc đến Dâu Rể nhé!",
+         "Bạn Có Tham Dự Không?"
+      ],
+      "options": {
+         "attendance": [
+            "Có Thể Tham Dự",
+            "Không Thể Tham Dự"
+         ]
+      }
+   },
+   "bank_info": {
+      "bank": "MBBANK",
+      "account_holder": "NGUYEN TAN DAT"
+   },
+   "images": [
+      "./images/a649b94a96121661aaa76a03863022be.jpg",
+      "https://i.pinimg.com/736x/bf/a7/0a/bfa70a4673c083ae8629b54c233457b8.jpg",
+      "https://i.pinimg.com/736x/03/e9/98/03e99874419fea153980d573ba2bc525.jpg",
+      "https://i.pinimg.com/736x/39/ea/7a/39ea7ad9b7f455317a408d1d3345dd17.jpg",
+      "https://statics.pancake.vn/web-media/07/2b/16/32/5b4290bb45a4866efe0461c2047268198c7bbc16f982481cec518227-w:966-h:1449-l:130102-t:image/jpeg.jpg",
+      "https://i.pinimg.com/736x/33/30/9c/33309cf07c971f50347b70665788e59c.jpg",
+      "https://statics.pancake.vn/web-media/09/00/8a/b4/692735fdc0775ae1530963a767ce4264df77078f659771a3cde9c5ac-w:840-h:1280-l:177736-t:image/jpeg.png",
+      "https://statics.pancake.vn/web-media/84/b3/f5/cd/cc7957b9f0e497f01a17d05f9e73406b7650b249c169b424c7ee1767-w:854-h:1280-l:94691-t:image/jpeg.png",
+      "https://statics.pancake.vn/web-media/60/b1/5e/e9/89fd2d2d6cd9a62db6e70776243eb9ed8603fc1fb415bdc95da92104-w:1286-h:857-l:255701-t:image/jpeg.jpg",
+      "https://statics.pancake.vn/web-media/7a/e8/d6/f6/da197a5a3542dfe09e7faa9e118999103385582808a2e2014fc72986-w:1286-h:988-l:154700-t:image/jpeg.jpg",
+      "https://statics.pancake.vn/web-media/dd/9c/8c/a8/87a897b01d024f8789f8083f9e089b531c2718a9a15d53e8df35459e-w:966-h:1449-l:250702-t:image/jpeg.jpg",
+      "https://statics.pancake.vn/web-media/7b/11/3e/32/c2ac693f0b52a782891c9eda3feafdcf4824a4eb591ffce6390c1d8f-w:966-h:1449-l:382749-t:image/jpeg.jpg",
+      "https://i.pinimg.com/736x/fa/db/9d/fadb9d5eeb989049e9289ad4a270ed1d.jpg"
+   ],
+   "notes": "Mẫu Đỏ Vàng, QR có, Sử dụng tính năng điền tên khách mời (có phí 99K)"
+}
